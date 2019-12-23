@@ -11,6 +11,10 @@ const Register = () => {
             <label>Name</label>
             <input type='text' placeholder='name'/>
           </Form.Field>
+          <Form.Field>
+            <label>Email</label>
+            <input type='email' placeholder='email'/>
+          </Form.Field>
           <Button>Submit</Button>
         </Form>
       </Modal.Content>
